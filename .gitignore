@@ -1,0 +1,56 @@
+# Python
+**/__pycache__/*
+
+# Sample files, alignments and references
+*.fastq
+*.fasta*
+*.gz
+*.vcf*
+*.bam*
+*.cram*
+*.sam*
+*.dict
+
+# Datasets
+datasets/*
+
+# GenomicDBImport
+*.tdb
+**/genomicsdb_meta_dir/*
+vidmap.json
+callset.json
+.__consolidation_lock
+
+# Debug
+debug/*
+
+# Snakemake
+**/.snakemake*
+
+# Prototyping / testing
+untracked/*
+
+# Benchmarking
+**/benchmarks/*/*.tsv
+!**/benchmarks/*/*REPORT*.tsv
+
+# Golem
+golem/yagna_datadir/*
+*.log
+golem/tutorials/*
+*.gvmi
+**/goth/*
+!**/goth/*/goth-config.yml
+
+# Vagrant
+Vagrantfile
+vagrant_provisioning.txt
+.vagrant/*
+
+# Big image files, keeping README to preserve folder
+**/gatk_release/*
+**/reference_HG38*
+!**/gatk_release/README.md
+
+# Test / Dev
+tests/requestor/scratch.py
