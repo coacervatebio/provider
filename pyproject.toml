@@ -9,6 +9,8 @@ packages = [{include = "coacervate_provider"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 
+[tool.poetry.group.dev.dependencies]
+gvmkit-build = "^0.2.7"
 
 [build-system]
 requires = ["poetry-core"]
