@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 # Install java runtime
-RUN apk add openjdk11-jre
+RUN apk add openjdk11-jre tar zstd
 VOLUME /golem/input /golem/output /golem/entrypoint
 
 # Copy GATK assets
