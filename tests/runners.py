@@ -34,7 +34,7 @@ class ScriptRunner:
             test_tag,
             command=[
                 "/bin/sh",
-                "/golem/entrypoint/run.sh",
+                "/run/run.sh",
                 "/golem/input/HG03633_chr21.cram",
                 "chr21",
                 "/golem/output/HG03633_chr21.g.vcf.gz"
